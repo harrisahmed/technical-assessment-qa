@@ -5,7 +5,6 @@ On your local machine, you can run your tests using the Visual Studio Code.
 
 For building the project : **npm install**
 
-Add Ajv JSON schema validator for validating API scheme : **npm i ajv**
 
 ### Break down into end to end tests
 
@@ -19,6 +18,10 @@ The project contains folder cypress/e2e inside this all test files are present:
 2. Cypress test runner will pop up. Select E2E Testing.
 3. Choose your preferred browser for E2E testing.
 4. Now you can run test of you choice.
+
+**If you want to run test in terminal use these commands**
+1. ** npm run ui:test**
+2. ** npm run api:test**
 
 ### Authur
 Harris Ahmed

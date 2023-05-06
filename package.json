@@ -4,7 +4,9 @@
   "description": "Automation suite",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "ui:test": "cypress run --spec \"cypress/e2e/Task-1\"",
+    "api:test": "cypress run --spec \"cypress/e2e/Task-2\""
   },
   "repository": {
     "type": "git",
