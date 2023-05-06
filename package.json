@@ -1,0 +1,22 @@
+{
+  "name": "qa-assessment",
+  "version": "1.0.0",
+  "description": "Automation suite",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrisahmed/technical-assessment-qa.git"
+  },
+  "author": "Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrisahmed/technical-assessment-qa/issues"
+  },
+  "homepage": "https://github.com/harrisahmed/technical-assessment-qa#readme",
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  }
+}
