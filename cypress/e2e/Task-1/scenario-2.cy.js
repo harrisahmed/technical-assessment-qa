@@ -1,6 +1,6 @@
 import DressesPage from '../../Pages/DressesPage';
 
-describe('Dresses page', () => {
+describe('Scenario 2', () => {
   it('should sort dresses by price in descending order', () => {
     let prices = []  
 
