@@ -6,7 +6,8 @@ export const makeApiRequest = (requestBody) => {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
-      body: requestBody
+      body: requestBody,
+      failOnStatusCode: false,
     });
   }
   
